@@ -1,0 +1,7 @@
+version: "3"
+services:
+    noaa-precipitations:
+      build: .
+      volumes:                      
+        - C:\Users\pietro.viglino\Desktop\output-noaa:/code/app/output
+        - C:\Users\pietro.viglino\Desktop\output-noaa\logging:/code/app/logging
